@@ -1,0 +1,54 @@
+.geocode-container {
+    max-width: 400px; /* Limit width of the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Add some padding */
+    background-color: #222831; /* White background for contrast */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .geocode-container h2 {
+    color: rgb(39, 213, 243); /* Primary color for headings */
+    font-size: 1.5rem; /* Slightly larger font */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  .geocode-container input[type="text"] {
+    width: 90%; /* Full width */
+    padding: 10px; /* Space inside input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    margin-bottom: 10px; /* Space below input */
+  }
+  
+  .geocode-container button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Space inside button */
+    background-color: rgb(39, 213, 243); /* Primary button color */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .geocode-container button:hover {
+    background-color: #0f56a2; /* Darker shade on hover */
+  }
+  
+  .geocode-container h3 {
+    margin-top: 20px; /* Space above coordinates */
+    color: rgb(39, 213, 243); /* Dark gray for text */
+  }
+  
+  .geocode-container p {
+    color: rgb(39, 213, 243); /* Dark gray for text */
+  }
+  
+  .geocode-container .error {
+    color: red; /* Red for error messages */
+    margin-top: 10px; /* Space above error message */
+  }
